@@ -7,3 +7,23 @@ $main-color-5:#073D20;  // Gradient color 2 for website footer
 $secondary-color:#FFFFFF;
 $secondary-color:#C81A19;
 
+//Font Codes
+$font-1 : 'pacifico', 'sans-serif';
+
+// SCSS for Landing Page
+body {
+    background-image: url(/assets/78199.jpg) ;
+ 
+    header {
+        .freddie-logo {
+            width: 40%;
+            position: align center;
+           }
+           h2 { 
+            color: $main-color;
+           }
+    }
+    .pizza-img {
+        width: 50%;
+    }
+}

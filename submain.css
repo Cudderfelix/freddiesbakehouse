@@ -1,1 +1,13 @@
-/*# sourceMappingURL=submain.css.map */
+body {
+  background-image: url(/assets/78199.jpg);
+}
+body header .freddie-logo {
+  width: 40%;
+  position: align center;
+}
+body header h2 {
+  color: #073D20;
+}
+body .pizza-img {
+  width: 50%;
+}/*# sourceMappingURL=submain.css.map */
