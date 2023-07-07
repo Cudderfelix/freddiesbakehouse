@@ -1,13 +1,44 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fonts for Freddie's Project */
+/* Colors for this Project */
+/* Body Css Styling */
+body #landing-page {
   background-image: url(/assets/78199.jpg);
+  color: #1C2E1A;
 }
-body header .freddie-logo {
+body #landing-page .logo-img {
+  display: flex;
+  justify-content: center;
+}
+body #landing-page .hero-section .hero-header {
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+}
+body #landing-page .pizza-img {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem;
+}
+body #landing-page .pizza-img img {
   width: 40%;
-  position: align center;
 }
-body header h2 {
-  color: #073D20;
+body #landing-page .nav-buttons {
+  display: flex;
+  justify-content: center;
 }
-body .pizza-img {
-  width: 50%;
+body #landing-page .nav-buttons ul {
+  text-decoration: none;
+}
+body #landing-page .burger-img {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+body #landing-page .burger-img img {
+  width: 40%;
 }/*# sourceMappingURL=submain.css.map */

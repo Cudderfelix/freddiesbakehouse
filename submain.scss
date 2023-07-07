@@ -1,29 +1,72 @@
-// Color Codes
-$main-color: #073D20;
-$main-color-2: #1C2E1A;
-$main-color-3: #366030; // Used for button text as well as border stroke
-$main-color-4:#012713;  // Gradient color 1 for website footer
-$main-color-5:#073D20;  // Gradient color 2 for website footer
-$secondary-color:#FFFFFF;
-$secondary-color:#C81A19;
+*{
+ margin: 0;
+ padding:0;   
+}
 
-//Font Codes
-$font-1 : 'pacifico', 'sans-serif';
+/* Fonts for Freddie's Project */
 
-// SCSS for Landing Page
+
+
+
+/* Colors for this Project */
+$text-color-1 : #1C2E1A;
+
+
+
+
+/* Body Css Styling */
+
 body {
-    background-image: url(/assets/78199.jpg) ;
+    #landing-page {
+        background-image: url(/assets/78199.jpg);
+        color: $text-color-1;
+        .logo-img {
+            display:flex;
+            justify-content: center;
+            img {
+                
+            }
+        }
+       
+        .hero-section {
+            .hero-header {
+                font-size: 4rem;
+                font-weight: 600;
+                text-align:center;
+            }
+            
+        }
+
+        .pizza-img {
+            display: flex;
+            justify-content: flex-end;
+            margin: 1rem;
+            img {
+                width: 40%;
+                
+
+            }
+            
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: center;
+            
+            ul {
+                text-decoration: none;
+            }
+        }
+        .burger-img {
+            display: flex;
+            justify-content: center;
+            margin: 1rem;
+            img {
+                width:40%;
+            }
+        }
+
+
+    }
  
-    header {
-        .freddie-logo {
-            width: 40%;
-            position: align center;
-           }
-           h2 { 
-            color: $main-color;
-           }
-    }
-    .pizza-img {
-        width: 50%;
-    }
 }
