@@ -14,6 +14,10 @@ body #landing-page .logo-img {
   display: flex;
   justify-content: center;
 }
+body #landing-page .logo-img img {
+  margin-top: 0.5rem;
+  width: 40%;
+}
 body #landing-page .hero-section .hero-header {
   font-size: 4rem;
   font-weight: 600;
@@ -22,23 +26,39 @@ body #landing-page .hero-section .hero-header {
 body #landing-page .pizza-img {
   display: flex;
   justify-content: flex-end;
-  margin: 1rem;
+  margin-top: 1rem;
 }
 body #landing-page .pizza-img img {
-  width: 40%;
+  width: 50%;
 }
 body #landing-page .nav-buttons {
   display: flex;
   justify-content: center;
 }
-body #landing-page .nav-buttons ul {
+body #landing-page .nav-buttons ul li {
+  padding: 0.12rem;
   text-decoration: none;
+  list-style-type: none;
+  border-style: 0.2rem;
+}
+body #landing-page .nav-buttons ul li button {
+  background-color: transparent;
+  border-radius: 0.5rem;
+  border-color: #1C2E1A;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+body #landing-page .nav-buttons ul li button a {
+  text-decoration: none;
+  color: #1C2E1A;
 }
 body #landing-page .burger-img {
   display: flex;
   justify-content: center;
-  margin: 1rem;
+  margin-top: 2rem;
 }
 body #landing-page .burger-img img {
-  width: 40%;
+  width: 50%;
 }/*# sourceMappingURL=submain.css.map */

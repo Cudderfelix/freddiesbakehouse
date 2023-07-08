@@ -4,6 +4,7 @@
 }
 
 /* Fonts for Freddie's Project */
+$font-1 : "pacifo";
 
 
 
@@ -24,6 +25,8 @@ body {
             display:flex;
             justify-content: center;
             img {
+                margin-top: 0.5rem;
+                width: 40%;
                 
             }
         }
@@ -40,9 +43,9 @@ body {
         .pizza-img {
             display: flex;
             justify-content: flex-end;
-            margin: 1rem;
+            margin-top: 1rem;
             img {
-                width: 40%;
+                width: 50%;
                 
 
             }
@@ -54,15 +57,34 @@ body {
             justify-content: center;
             
             ul {
+            li {
+                padding:0.12rem;
                 text-decoration: none;
+                list-style-type: none;
+                border-style: 0.2rem;
+                button {
+                    background-color: transparent;
+                    border-radius: 0.5rem;
+                    border-color: $text-color-1;
+                    padding: 0.5rem;
+                    text-align: center;
+                    font-size: 1.8rem;
+                    font-weight: 400;
+                    a{
+                        text-decoration: none;
+                        color: $text-color-1;
+                    }
+                }
+
+            }    
             }
         }
         .burger-img {
             display: flex;
             justify-content: center;
-            margin: 1rem;
+            margin-top: 2rem;
             img {
-                width:40%;
+                width:50%;
             }
         }
 
