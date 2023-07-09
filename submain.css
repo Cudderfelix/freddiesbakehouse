@@ -16,7 +16,7 @@ body #landing-page .logo-img {
 }
 body #landing-page .logo-img img {
   margin-top: 0.5rem;
-  width: 40%;
+  width: 35%;
 }
 body #landing-page .hero-section .hero-header {
   font-size: 4rem;
@@ -60,5 +60,5 @@ body #landing-page .burger-img {
   margin-top: 2rem;
 }
 body #landing-page .burger-img img {
-  width: 50%;
+  width: 35%;
 }/*# sourceMappingURL=submain.css.map */
